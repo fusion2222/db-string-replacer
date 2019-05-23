@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*$py.clas
+config.json
+.venv
+.idea
+.DS_Store
+

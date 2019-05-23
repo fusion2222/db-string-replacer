@@ -1,0 +1,11 @@
+{
+	"DB": {
+		"HOST": "",
+		"DB_NAME": "",
+		"USER": "",
+		"PASSWORD": "",
+		"PORT": "",
+	},
+	"CHUNK_SIZE": 30,
+	"CHUNK_SLEEP_TIME": 4
+}
