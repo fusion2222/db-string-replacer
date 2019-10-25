@@ -19,12 +19,13 @@ CHUNK_SLEEP_TIME = config_json.get('CHUNK_SLEEP_TIME', 4)  # in seconds
 
 engine = create_engine(
     'mysql+mysqlconnector://{user}:{password}@{host}:{port}/{dbname}'.format(
-        user=settings.DB_USER,
-        password=settings.DB_PASSWORD,
-        host=settings.DB_HOST,
-        port=settings.DB_PORT,
-        dbname=settings.DB_NAME,
+        user=DB_USER,
+        password=DB_PASSWORD,
+        host=DB_HOST,
+        port=DB_PORT,
+        dbname=DB_NAME,
     ),
     pool_recycle=3600,
     echo=False,  # TODO: Provide command with --verbose switch, so user can see logs if he wants to.
 )
+
